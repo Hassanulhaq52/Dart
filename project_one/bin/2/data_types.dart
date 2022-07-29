@@ -18,4 +18,12 @@ void main() {
 print('The Result is: ' + operationResult.toString());
 print('The Result\'s Type is: ' + operationResult.runtimeType.toString());
 
+//Type Casting
+
+num value = 7;
+var valueInteger = value as int;
+print(valueInteger.isEven);
+
+
+
 }
